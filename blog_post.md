@@ -1,4 +1,8 @@
 ## Localytics <3 Elixir
+
+Ian Asaff
+Senior Engineer
+
 A coworker and I just got back from ElixirConf and we are pumped. We heard talks on distributed computing, self-healing architectures, embedded systems, and web development. The things people are doing with elixir is incredible. The last time I saw this much enthusiasm for new tech was back when the ruby and rails rocket was preparing to launch.
 
 ## What is it?
