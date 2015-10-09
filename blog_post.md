@@ -17,7 +17,7 @@ Dig deeper and find its suite of robust, production-ready language tools:
  * [ExUnit] (http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html) -- a test builtin test framework
  * [EEx] (http://elixir-lang.org/docs/stable/eex/EEx.html) -- a robust templating library
 
-And, if you've clicked any of those links, you've noticed the beautiful and thorough documentation that is a first-class citizen of the elixir ecosystem, brought to you by [ExDoc](https://github.com/elixir-lang/ex_doc). Diving into the elixir exosystem really is like unboxing something from Apple.
+And, if you've clicked any of those links, you've noticed the beautiful and thorough documentation. Docs are a first-class citizen of the elixir ecosystem, brought to you by [ExDoc](https://github.com/elixir-lang/ex_doc). Diving into the elixir exosystem really is like unboxing something from Apple.
 
 ## Wait a sec... new languages aren't meant for production!
 We agree. Production isn't for new-and-shiny. It's for old-and-boring. Thankfully, elixir manages to be both at the same time. It runs on the erlang VM, which has been around since 1986 and is thoroughly battle-tested. That means elixir stands on the shoulders of the entire erlang ecosystem of tools, libraries, and production experience. Elixir wraps OTP and can interop with any erlang functions with zero overhead. It is fully compatible with erlang's mind-blowing `observer` tool, invoked unceremoniously in `iex` by calling `:observer.start`. If you're a ruby dev who has ever had to jump through hoops to see what your system is doing, `:observer.start` will change your world.
