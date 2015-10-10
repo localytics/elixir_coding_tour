@@ -20,6 +20,7 @@ Dig deeper and find its suite of robust, production-ready language tools:
  * [ExUnit] (http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html) -- a test builtin test framework
  * [EEx] (http://elixir-lang.org/docs/stable/eex/EEx.html) -- a robust templating library
  * [Exrm] (https://github.com/bitwalker/exrm) -- effortlessly version and build your production release
+
 And, if you've clicked any of those links, you've noticed the beautiful and thorough documentation. Docs are a first-class citizen of the Elixir ecosystem, brought to you by [ExDoc](https://github.com/elixir-lang/ex_doc). Diving into the Elixir exosystem really is like unboxing something from Apple.
 
 ## What does Localytics like about Elixir?
