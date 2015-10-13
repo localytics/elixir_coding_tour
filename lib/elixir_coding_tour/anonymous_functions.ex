@@ -3,21 +3,21 @@ defmodule ElixirCodingTour.AnonymousFunctions do
 
   def perform_farmer_duties(animal) do
     [
-      animal_tickler(animal),
-      animal_shaver(animal),
-      animal_milker(animal)
+      animal_tickling(animal),
+      animal_shaving(animal),
+      animal_milking(animal)
     ] |> Enum.each(&(IO.puts &1.()))
   end
 
-  def animal_milker(animal) do
+  def animal_milking(animal) do
     fn -> verbing_an_animal("milking", animal) end
   end
 
-  def animal_tickler(animal) do
+  def animal_tickling(animal) do
     fn -> verbing_an_animal("tickling", animal) end
   end
 
-  def animal_shaver(animal) do
+  def animal_shaving(animal) do
     fn -> verbing_an_animal("shaving", animal) end
   end
 
