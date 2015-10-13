@@ -6,7 +6,7 @@ defmodule ElixirCodingTour.AnonymousFunctions do
       animal_tickler(animal),
       animal_shaver(animal),
       animal_milker(animal)
-    ] |> Enum.each(&(&1.()))
+    ] |> Enum.each(&(IO.puts &1.()))
   end
 
   def animal_milker(animal) do
@@ -22,6 +22,6 @@ defmodule ElixirCodingTour.AnonymousFunctions do
   end
 
   defp verbing_an_animal(verbing, animal) do
-    IO.puts "You're #{verbing} the #{animal}."
+    "You're #{verbing} the #{animal}."
   end
 end
