@@ -1,4 +1,8 @@
 defmodule ElixirCodingTour.AnonymousFunctions do
+  import ElixirCodingTour.Macros
+
+  #do_stuff_to_a_yak ["riding", "petting", "wrestling"]
+
   # basic demo of anonymous function syntax
 
   def perform_farmer_duties(animal) do
