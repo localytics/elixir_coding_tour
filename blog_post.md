@@ -16,10 +16,11 @@ Nope! Erlang was built to create systems that are fast, responsive, and reliable
 ## OK, so what's the downside?
 
 Elixir isn’t magic. There are a few reasons it may not be the right tech for your use case:
-Not as fast as C or Java at cpu-intensive workloads
-You probably don’t want to write your desktop app’s GUI in Elixir
-The community of third-party libs is still small (but it’s growing!)
-It’s relatively new, so hiring for “Elixir programmers” may be difficult
+
+* Not as fast as C or Java at cpu-intensive workloads
+* You probably don’t want to write your desktop app’s GUI in Elixir
+* The community of third-party libs is still small (but it’s growing!)
+* It’s relatively new, so hiring for “Elixir programmers” may be difficult
 
 ## What do I like about Elixir?
 
