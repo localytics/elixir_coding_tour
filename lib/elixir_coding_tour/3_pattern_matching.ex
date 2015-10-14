@@ -1,10 +1,10 @@
 defmodule E.PatternMatching do
   # http://elixir-lang.org/getting-started/pattern-matching.html
   # keeps functions definitions short, easy to understand
-  def ian_likes?(:pizza), do: true
-  def ian_likes?(:sardines), do: false
-  def ian_likes?(thing) do
-    IO.puts "No clue. I haven't tried #{thing} yet"
+  def bob_likes?("pizza"), do: true
+  def bob_likes?("sardines"), do: false
+  def bob_likes?(thing) do
+    IO.puts "No clue. Bob hasn't tried #{thing} yet"
   end
 
   # recursion is super easy to understand

@@ -2,7 +2,7 @@ defmodule E.AnonymousFunctions do
   # basic demo of anonymous function syntax
   # http://elixir-lang.org/getting-started/basic-types.html#anonymous-functions
 
-  #import ElixirCodingTour.Macros
+  #import E.Macros
   #do_stuff_to_a_yak ["riding", "petting", "wrestling"]
 
 

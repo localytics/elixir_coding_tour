@@ -38,7 +38,7 @@ defmodule E.Processes do
         developer
       # match if a tuple with a two elements comes in
       {sender, msg} ->
-        send sender, {"I don't care if \"#{msg}\". We need to refactor!!"}
+        send sender, {"I don't care about \"#{msg}\". We need to refactor!!"}
         # recursively call developer to keep listening for messages
         developer
     end
@@ -50,7 +50,7 @@ defmodule E.Processes do
         IO.puts "Dev says: #{msg}"
         product_person
       {sender, msg} ->
-        send sender, {"I don't care if \"#{msg}\". Ship more features!"}
+        send sender, {"I don't care about \"#{msg}\". Ship more features!"}
         product_person
     end
   end
