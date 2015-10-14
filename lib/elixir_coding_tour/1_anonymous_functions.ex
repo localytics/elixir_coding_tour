@@ -1,4 +1,5 @@
 defmodule E.AnonymousFunctions do
+  # also see the tests at test/elixir_coding_tour/anonymous_functions_test.exs
   # basic demo of anonymous function syntax
   # http://elixir-lang.org/getting-started/basic-types.html#anonymous-functions
 
