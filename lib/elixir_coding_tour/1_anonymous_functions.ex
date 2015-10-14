@@ -3,6 +3,7 @@ defmodule E.AnonymousFunctions do
   # basic demo of anonymous function syntax
   # http://elixir-lang.org/getting-started/basic-types.html#anonymous-functions
 
+  # creates a yak_[word] function
   #import E.Macros
   #do_stuff_to_a_yak ["riding", "petting", "wrestling"]
 

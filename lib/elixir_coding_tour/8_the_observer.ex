@@ -7,6 +7,7 @@ defmodule E.TheObserver do
   end
 
   def omg_doing_a_lot do
+    # this is kicking off a million processes. A. MILLION.
     1..1_000_000
     |> Enum.map(fn i ->
       Task.async(fn -> IO.puts "HI from task: #{i}" end)
