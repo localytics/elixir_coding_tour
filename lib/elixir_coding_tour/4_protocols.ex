@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.Protocols do
+defmodule E.Protocols do
   # This is how elixir implements polymorphism
   # http://elixir-lang.org/getting-started/protocols.html
   defprotocol Awesomeness do

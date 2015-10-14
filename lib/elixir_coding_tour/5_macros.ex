@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.Macros do
+defmodule E.Macros do
   # the internal representation is a three-element tuple
   # in the following format: {fn, metadata, args}
   #iex> quote do: 1 + 2

@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.GuardClauses do
+defmodule E.GuardClauses do
   # list of allowed expressions in guard clauses is here:
   # http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses
 

@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.SupervisedStack do
+defmodule E.SupervisedStack do
   use GenServer
 
   def push(value) do

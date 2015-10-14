@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.AnonymousFunctions do
+defmodule E.AnonymousFunctions do
   # basic demo of anonymous function syntax
   #import ElixirCodingTour.Macros
   #do_stuff_to_a_yak ["riding", "petting", "wrestling"]

@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.TheObserver do
+defmodule E.TheObserver do
   def not_doing_much do
     Enum.each(1..1000, &IO.puts "Hi mom #{&1}!")
   end

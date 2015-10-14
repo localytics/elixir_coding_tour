@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.PatternMatching do
+defmodule E.PatternMatching do
   # keeps functions definitions short, easy to understand
   def ian_likes?(:pizza), do: true
   def ian_likes?(:sardines), do: false

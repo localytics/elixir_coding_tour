@@ -1,7 +1,7 @@
-defmodule ElixirCodingTour.AnonymousFunctionsTest do
+defmodule E.AnonymousFunctionsTest do
   use ExUnit.Case
 
-  alias ElixirCodingTour.AnonymousFunctions, as: AF
+  alias E.AnonymousFunctions, as: AF
 
   test "animal_tickler" do
     assert AF.animal_tickling(:yak).() == "You're tickling the yak."

@@ -1,4 +1,4 @@
-defmodule ElixirCodingTour.DoctestTest do
+defmodule E.DoctestTest do
   use ExUnit.Case
-  doctest ElixirCodingTour.Doctest
-end`
+  doctest E.Doctest
+end
