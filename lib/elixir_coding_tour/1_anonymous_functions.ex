@@ -19,7 +19,7 @@ defmodule E.AnonymousFunctions do
     ]
     # use the pipeline operator to loop over
     # each function and execute it
-    |> Enum.each(&(IO.puts &1.()))
+    |> Enum.each(fn activity_fn -> IO.puts activity_fn.() end)
   end
 
   # implicitly returns an anonymous function
