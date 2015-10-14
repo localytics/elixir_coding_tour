@@ -1,10 +1,12 @@
 defmodule ElixirCodingTour.AnonymousFunctions do
-  import ElixirCodingTour.Macros
-
+  # basic demo of anonymous function syntax
+  #import ElixirCodingTour.Macros
   #do_stuff_to_a_yak ["riding", "petting", "wrestling"]
 
-  # basic demo of anonymous function syntax
 
+  # specs are used to help with documentation generation
+  # for use with static analysis tools like dialyzer
+  @spec perform_farmer_duties(String.t) :: :ok
   def perform_farmer_duties(animal) do
     [
       animal_tickling(animal),
