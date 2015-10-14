@@ -1,4 +1,5 @@
 defmodule E.TheObserver do
+  # http://www.erlang.org/doc/apps/observer/
   def not_doing_much do
     Enum.each(1..1000, &IO.puts "Hi mom #{&1}!")
   end

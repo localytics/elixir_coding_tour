@@ -1,4 +1,6 @@
 defmodule E.SupervisedStack do
+  # http://elixir-lang.org/getting-started/mix-otp/genserver.html
+  # http://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html
   use GenServer
 
   def push(value) do

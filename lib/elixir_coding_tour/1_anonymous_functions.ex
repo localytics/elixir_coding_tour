@@ -1,5 +1,7 @@
 defmodule E.AnonymousFunctions do
   # basic demo of anonymous function syntax
+  # http://elixir-lang.org/getting-started/basic-types.html#anonymous-functions
+
   #import ElixirCodingTour.Macros
   #do_stuff_to_a_yak ["riding", "petting", "wrestling"]
 
@@ -8,13 +10,18 @@ defmodule E.AnonymousFunctions do
   # for use with static analysis tools like dialyzer
   @spec perform_farmer_duties(String.t) :: :ok
   def perform_farmer_duties(animal) do
+    # an array of anonymous functions
     [
       animal_tickling(animal),
       animal_shaving(animal),
       animal_milking(animal)
-    ] |> Enum.each(&(IO.puts &1.()))
+    ]
+    # use the pipeline operator to loop over
+    # each function and execute it
+    |> Enum.each(&(IO.puts &1.()))
   end
 
+  # implicitly returns an anonymous function
   def animal_milking(animal) do
     fn -> verbing_an_animal("milking", animal) end
   end

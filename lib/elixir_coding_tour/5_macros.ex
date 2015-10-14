@@ -1,4 +1,5 @@
 defmodule E.Macros do
+  # http://elixir-lang.org/getting-started/meta/macros.html
   # the internal representation is a three-element tuple
   # in the following format: {fn, metadata, args}
   #iex> quote do: 1 + 2

@@ -1,4 +1,5 @@
 defmodule E.Doctest do
+  # http://elixir-lang.org/getting-started/mix-otp/docs-tests-and-pipelines.html#doctests
   # http://elixir-lang.org/docs/v1.1/ex_unit/ExUnit.DocTest.html
   # Your documentation can also work as test code!
   @doc """
