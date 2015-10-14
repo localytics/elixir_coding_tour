@@ -3,7 +3,7 @@ defmodule E.Processes do
   # anonymous functions, recursion (tail-call optimization), pattern-matching
 
 
-  def create_localytics do
+  def workers do
     # spawn a process, passing in the Module name, the function,
     # and the arguments to the function
     dev = spawn(E.Processes, :developer, [])
