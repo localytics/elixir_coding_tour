@@ -3,7 +3,7 @@
 Ian Asaff
 Senior Engineer
 
-Fellow Localytics engineer, Michael Macasek, and I just got back from ElixirConf (https://twitter.com/ElixirConf) and we are pumped. The things people are doing with Elixir is incredible. We heard talks on distributed computing, self-healing architectures, embedded systems, and web development. The last time I saw this much enthusiasm for new tech was back when the Ruby and Rails rocket was preparing to launch.
+Fellow Localytics engineer, Michael Macasek, and I just got back from ElixirConf (https://twitter.com/ElixirConf) and we are pumped. The things people are doing with Elixir is incredible. We heard talks on distributed computing, self-healing architectures, embedded systems, and web development. The last time I saw this much enthusiasm for new tech was back when the Ruby and Rails rocket was preparing to launch. We had both been dabbling in Elixir before the conference. After the conference, we knew that it was on its own launchpad.
 
 ## What is it?
 
